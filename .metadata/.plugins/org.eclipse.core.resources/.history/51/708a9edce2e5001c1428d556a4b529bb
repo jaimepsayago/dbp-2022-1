@@ -1,0 +1,35 @@
+<%@page import="pucese.edu.ec.Contactos"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <!--importar librerias  -->
+  <%@ page import="java.util.ArrayList"  %>
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Libreta de Direcciones</title>
+</head>
+
+<!--  generar una variable para agregar la clase contactos-->
+<%
+ArrayList<Contactos> contactos;
+%>
+
+<body>
+
+<form action="post">
+<label>Nombre</label>
+<input type="text" name = "nombre"/>
+
+<label>Apellido</label>
+<input type="text" name = "apellido"/>
+
+<label>Telefono</label>
+<input type="text" name = "telefono"/>
+
+<button type="submit">Guardar</button>
+</form>
+
+</body>
+</html>

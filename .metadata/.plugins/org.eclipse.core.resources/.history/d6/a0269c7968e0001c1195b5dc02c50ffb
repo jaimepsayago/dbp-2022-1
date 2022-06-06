@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Calcular Factura</h1>
+<form action="factura" method="post">
+	<label>Cliente</label>
+	<label>Nombre</label>
+	<input type="text" nombre = "nombre">
+
+	<label>Apellido</label>
+	<input type="text" nombre = "apellido">
+		
+	<label>Subtotal</label>
+	<input type="text" nombre = "subtotal">	
+	
+	<label>Iva</label>
+	<input type="text" nombre = "iva" value="12">	
+		
+	<button type="submit">Calcular</button>
+</form>				
+</body>
+</html>

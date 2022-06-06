@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+D:\TI\2022-1\WorkSpaceDBP\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1336811304.index
+71540197.index
+4052268764.index
+3177460091.index
+71540197.index
+2208649397.index
+2496051091.index
+4223295043.index
